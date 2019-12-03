@@ -1,0 +1,95 @@
+.TopBar {
+  width: 90%;
+  background-color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: fixed !important;
+  border-bottom: 1px solid #ccc;
+  z-index: 2;
+}
+
+.MapText {
+  font-size: 20px;
+  color: red
+}
+
+.TopButtons {
+  flex-direction: row;
+  display: flex;
+}
+
+.FlexView {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.DrawerTop {
+  flex-direction: row;
+  display: flex;
+  height: 100;
+  font-size: 22px;
+  font-weight: bold;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.pickup {
+  font-weight: bold;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.BorderCSS {
+  border-width: 1px;
+  border-color: #aaa;
+  border-style: double;
+  padding: 10px;
+}
+
+.BottomView {
+  background: #282c34;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top: 20px;
+  color: white;
+}
+
+.MobileBottomView {
+  position: fixed !important;
+  z-index: 2;
+  bottom: 0;
+  width: 100%;
+}
+
+.modHeader {
+  background: #ddd;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-size: 18px;
+}

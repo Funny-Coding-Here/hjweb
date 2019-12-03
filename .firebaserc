@@ -1,0 +1,18 @@
+{
+  "targets": {
+    "infishare-client-test": {
+      "hosting": {
+        "order": [
+          "infinetorder"
+        ]
+      }
+    },
+    "infishare-client": {
+      "hosting": {
+        "orderProd": [
+          "infishare-shopping"
+        ]
+      }
+    }
+  }
+}
